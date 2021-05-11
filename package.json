@@ -1,0 +1,38 @@
+{
+  "name": "newinsided",
+  "version": "1.0.0",
+  "description": "Copper community clone",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js && sass --watch main.scss:build/community.copper.com/main.css ",
+    "server": "http-server build/community.copper.com/",
+    "build": "sass main.scss:main.css && postcss main.css -u autoprefixer -d dist/"
+  },
+  "author": "Francisco Cornejo",
+  "license": "ISC",
+  "dependencies": {
+    "dom-parser": "^0.1.6",
+    "node-html-parser": "^3.2.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.2.5",
+    "postcss": "^8.2.15",
+    "postcss-advanced-variables": "^3.0.1",
+    "postcss-cli": "^8.3.1",
+    "postcss-loader": "^5.2.0",
+    "postcss-nested": "^5.0.5",
+    "postcss-scss": "^3.0.5",
+    "sass": "^1.32.12",
+    "sass-loader": "^11.1.0",
+    "webpack": "^5.37.0"
+  },
+  "browserslist": [
+    "defaults",
+    "not ie < 11",
+    "last 2 versions",
+    "> 1%",
+    "iOS 7",
+    "last 3 iOS versions"
+  ]
+}

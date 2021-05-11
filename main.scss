@@ -1,0 +1,291 @@
+/* Note: We recommend inviting a 
+professional web developer to work with 
+Custom Css. Test your code on a staging 
+environment before publishing. */
+
+.slider-trigger{
+    color: #ffffff; 
+}
+   
+.pill {
+    text-transform: lowercase !important;
+}
+   
+.weekly-webinars-45 .forum-featured-image__content h1, .weekly-webinars-45 .forum-featured-image__content p, .training-44 .forum-featured-image__content h1, .training-44 .forum-featured-image__content p{
+    color: #ffffff; 
+}
+   
+.partner-central-46 .sitewidth div[data-preact="category/CategoryList"]{
+    display: none;
+}
+.header-navigation_logo-wrapper a{
+    margin-right: 56px!important;
+}
+.header-navigation-items-wrapper{
+    .dropdown-container{
+        svg{
+            path{
+                // fill:#FF3465;
+            }
+        }
+    }
+}
+.main-navigation--nav-buttons-wrapper{
+    ul{
+        li:first-child{
+            a{
+                &:hover{
+                    border: 1px solid #80808012;
+                    transition: 0.25s;
+                }
+                color:#ff3565;
+                transition: 0.25s;
+                background: white;
+                border:1px solid #ff3565;
+                box-shadow: none;
+            }
+            
+        }
+        li:last-child{
+            a.qa-header-login-button{
+                &:hover{
+                    color:#ff3565;
+                    background-color: white;
+                    transition: 0.25s;
+                    border: 1px solid #80808012;
+                }
+                transition: 0.25s;
+                border: 1px solid transparent;
+                svg{
+                    display: none;
+                }
+            }
+        }
+    }
+}
+.widget-container--hero_banner{
+    .brand-hero{
+        background-size: cover;
+        background-position: center;
+        .brand-hero-title{
+            font-size: 40px;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+    }
+    .sitewidth{
+        width: fit-content;
+    }
+    .hero-search{
+        max-width: 100%;
+        padding: 0px 20px;
+    }
+    .algolia-search{
+        input{
+            border-radius: 0px;
+            padding-left: 21px!important;
+        }
+        .search-box__submit{
+            right: 0px;
+            left:initial;
+            padding: 16px 16px 16px 0px;
+        }
+    }
+}
+.widget-container--statistics_bar{
+    #last-visitors-widget{
+        display: none;
+    }
+    .list--stats-bar{
+        text-align: center;
+    }
+    li{
+        color: #2B3346;
+        strong{
+            font-weight: 100!important;
+            color:#2B3346!important;
+        }
+        span{
+            font-weight: 100!important;
+            color:#2B3346!important;
+        }
+    }
+}
+.widget-container--quick_links {
+    margin-bottom: 40px;
+    .qa-quicklinks-container{
+        article{
+            figure{
+                margin-bottom: 13px;
+            }
+            &:hover{
+                border:0px;
+            }
+            border: 0px;
+            box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.1);
+        }
+        .quicklink__title{
+            padding-bottom: 34px;
+            header{
+                margin-bottom: 10px;
+            }
+            p{
+                color:#6B707E;
+            }
+        }
+    }
+}
+.widget-container--recommendations{
+    ul{
+        li{
+            a{
+                font-size: 16px;;
+            }
+        }
+    }
+}
+.widget-container--container_2_1{
+    .tabs--nav{
+        ul{
+            li{
+                a{
+                    &.is-active{
+                        border-bottom: 2px solid #ff3465!important;  
+                    }
+                    font-size: 20px!important;
+                    font-weight: bold!important;
+                    line-height: 1.2!important;
+                    // border-bottom: 2px solid #ff3465!important;
+                }
+            }
+        }
+    }
+}
+.homepage-widget-container--featured_topics{
+    section{
+        margin-top: 0px;
+    }
+    article{
+        .card-widget-wrapper{
+            &:hover{
+                border:0px;
+            }
+            box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.1);
+            border:0px;
+            border-radius: 0px;
+        }
+        
+    }
+}
+.homepage-widget-container--recommendations{
+    .topic-curation__list{
+        li{
+            svg{
+                path{
+                    // fill:#503068;
+                }
+            }
+        }
+    }
+}
+.c-footer--simple{
+    background-color: #FFFFFF;
+    padding: 48px 0px;
+  
+    .c-footer--simple__logo{
+      text-align: center;
+      width: 100%;
+    }
+  
+    .c-footer--simple__social-links{
+        margin-top: 20px;
+      text-align: center;
+      width: 100%;
+      a{
+        padding-right: 7.5px;
+        padding-left: 7.5px;
+      }
+      #footer-blog-desktop{
+        // fill: #D9D9D9;
+      }
+    }
+  
+    .c-footer--simple__company-links{
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      padding: 35px 0;
+      a, span{
+        font-size: 16px;
+        line-height: 28px;
+        flex: 1;
+        text-align: center;
+      }
+    }
+  
+    @media (min-width: 768px) {
+      padding: 48px 0;
+  
+      .c-footer--simple__logo{
+        text-align: unset;
+        width: fit-content;
+      }
+  
+      .c-footer--simple__company-links{
+        flex-direction: row;
+        padding: 0;
+        order: 3;
+        
+        a, span{
+          font-size: 13px;
+          line-height: 24px;
+          text-align: right;
+        }
+      }
+  
+      .c-footer--simple__social-links{
+        text-align: right;
+        width: fit-content;
+        margin-top: 0px;
+      }
+  
+  
+    }
+    .footer-links{
+        a{
+            color:black;
+            padding-right: 30px;
+        }
+    }
+}
+.featured-topic__title .card-widget-text{
+    color: #6B707E
+    ;
+}
+  footer.c-footer--simple >div>div {
+    display: flex;
+    padding: 0px 40px;
+    flex-wrap: wrap ;
+    padding-bottom: 0px;
+    align-items: center;
+    justify-content: space-between;
+}
+.forum-featured-image{
+    h1{
+        color: white;
+    }
+    p{
+        color: white;
+    }
+    .search-box{
+        input{
+            padding-left: 20px!important;
+            border-radius: 0px;
+        }
+        .search-box__submit{
+            left: initial;
+            right: 16px;
+            padding: 16px 16px 16px 0px;
+        }
+    }
+}
