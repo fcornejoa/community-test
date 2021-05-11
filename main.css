@@ -22,6 +22,10 @@ environment before publishing. */
   margin-right: 56px !important;
 }
 
+.header-navigation-items-wrapper .dropdown-container svg path {
+  fill: #FF3465;
+}
+
 .main-navigation--nav-buttons-wrapper ul li:first-child a {
   color: #ff3565;
   transition: 0.25s;
@@ -139,6 +143,10 @@ environment before publishing. */
   border: 0px;
 }
 
+.homepage-widget-container--recommendations .topic-curation__list li svg path {
+  fill: #503068;
+}
+
 .c-footer--simple {
   background-color: #FFFFFF;
   padding: 48px 0px;
@@ -155,6 +163,9 @@ environment before publishing. */
 .c-footer--simple .c-footer--simple__social-links a {
   padding-right: 7.5px;
   padding-left: 7.5px;
+}
+.c-footer--simple .c-footer--simple__social-links #footer-blog-desktop {
+  fill: #D9D9D9;
 }
 .c-footer--simple .c-footer--simple__company-links {
   flex: 1;
