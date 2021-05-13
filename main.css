@@ -158,6 +158,7 @@ input.search-box__input--focused + button[type=submit] {
   line-height: 1.2 !important;
 }
 .widget-container--container_2_1 .tabs--nav ul li a.is-active {
+  color: #311D40 !important;
   border-bottom: 2px solid #ff3465 !important;
 }
 
@@ -312,6 +313,30 @@ footer.c-footer--simple > div > div {
 .widget-container--ideation_list .thread-list-block__title {
   font-weight: 500;
   color: #311D40;
+}
+
+.qa-sso-token_v2 {
+  width: fit-content !important;
+  margin: auto;
+  display: flex;
+  position: relative;
+  color: transparent !important;
+}
+.qa-sso-token_v2:after {
+  content: "Log in";
+  color: white;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.qa-login-modal h4 {
+  position: relative;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 20px 0px;
+  color: transparent;
 }
 
 /*# sourceMappingURL=main.css.map */
