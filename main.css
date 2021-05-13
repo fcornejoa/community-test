@@ -7,7 +7,7 @@ environment before publishing. */
 }
 
 .pill {
-  text-transform: lowercase !important;
+  text-transform: uppercase !important;
 }
 
 .weekly-webinars-45 .forum-featured-image__content h1, .weekly-webinars-45 .forum-featured-image__content p, .training-44 .forum-featured-image__content h1, .training-44 .forum-featured-image__content p {
@@ -337,6 +337,19 @@ footer.c-footer--simple > div > div {
   font-weight: 400;
   padding: 20px 0px;
   color: transparent;
+}
+
+.idea-view_info h4 a {
+  opacity: 1 !important;
+  font-weight: bold;
+}
+
+.topic__content-type-pill {
+  text-transform: uppercase !important;
+}
+
+.topic-view.topic-view--unread .topic-view_body .thread-list-block__title .thread-list-block__title-link {
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=main.css.map */
