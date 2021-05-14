@@ -4,7 +4,7 @@ Custom Css. Test your code on a staging
 environment before publishing. */
 
 .slider-trigger{
-    color: #ffffff; 
+    color: #ff3465; 
 }
    
 .pill {
@@ -101,6 +101,10 @@ input.search-box__input--focused + button[type='submit'] {
             font-size: 40px;
             line-height: 1.6;
             margin-bottom: 20px;
+            @media (max-width: 576px) {
+                font-size: 30px;
+                line-height: 1.4;
+            }
         }
     }
     .sitewidth{
@@ -420,4 +424,29 @@ input.search-box__input--focused + button[type='submit'] {
 }
 .topic-view.topic-view--unread .topic-view_body .thread-list-block__title .thread-list-block__title-link{
     font-weight: bold;
+}
+a:focus {
+    outline: none!important;
+}
+.widget-container--product-updates_hero{
+    .instant-search__filter{
+        display: none;
+    }
+}
+.widget-container--ideation_hero{
+    .instant-search__filter{
+        display: none;
+    }
+}
+.twig_site-badges{
+    .list--badges{
+        .user_data{
+            h4{
+                color:#311D40;
+                &:hover{
+                    color:#ff3465;
+                }
+            }
+        }
+    }
 }
