@@ -428,6 +428,12 @@ input.search-box__input--focused + button[type='submit'] {
 a:focus {
     outline: none!important;
 }
+button{
+    outline: none;
+    &:focus-visible{
+        outline: none;
+    }
+}
 .widget-container--product-updates_hero{
     .instant-search__filter{
         display: none;

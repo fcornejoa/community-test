@@ -362,6 +362,13 @@ a:focus {
   outline: none !important;
 }
 
+button {
+  outline: none;
+}
+button:focus-visible {
+  outline: none;
+}
+
 .widget-container--product-updates_hero .instant-search__filter {
   display: none;
 }
